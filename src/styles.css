@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  width: 180px;
+}
+#display {
+  margin-bottom: 20px;
+}
+#display span {
+  font-size: 35px;
+}
+#buttons button {
+  margin-left: 8px;
+}
+button {
+  font-size: 20px;
+  background-color: rgb(217, 60, 35);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(173, 47, 28);
+}
+button:active {
+  background-color: rgb(130, 35, 21);
+}
+button:focus {
+  outline: 0;
+}
